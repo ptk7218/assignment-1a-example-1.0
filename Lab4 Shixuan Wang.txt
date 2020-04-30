@@ -1,0 +1,23 @@
+1.
+SELECT *
+FROM `Car`
+
+2.
+SELECT Make, Model, Price
+FROM `Car`
+ORDER BY Make, Model
+
+3.
+SELECT make, model，prize
+FROM `Car`
+WHERE `Price` >=20000
+
+4.
+SELECT make, model,prize
+FROM `Car`
+WHERE `Price` <15000
+
+5.
+SELECT * FROM  `Car`
+WHERE Price = (SELECT AVG(Price) FROM  `Car`);
+
