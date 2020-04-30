@@ -21,3 +21,4 @@ WHERE `Price` <15000
 SELECT * FROM  `Car`
 WHERE Price = (SELECT AVG(Price) FROM  `Car`);
 
+6. ssss
